@@ -1,0 +1,42 @@
+body,html {
+	margin:0;
+	padding:0;
+}
+
+.test-page img{
+	position: relative;
+	left: 10%;
+	top: 8px;
+	width: 80%;
+}
+
+.test-page>.test-header {
+	background-color: rgb(50,50,50);
+	height: 50px;
+	width: 100%;
+}
+
+.test-page>.test-header>.left{
+	position: relative;
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+
+.test-page>.test-header>.center{
+	position: relative;
+	height: 100%;
+	width: 70%;
+	float: left;
+	text-align: center;
+	font-size: 25px;
+	line-height:50px;
+	color: rgb(200,200,200);
+}
+
+.test-page>.test-header>.right{
+	position: relative;
+	height: 100%;
+	width: 15%;
+	float: left;
+}
